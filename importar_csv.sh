@@ -1,12 +1,12 @@
 #!/bin/bash
-PSQL="psql 'postgres://lethereal:tzxaGNJ52kDe@us-west-2.aws.neon.tech/filateste'"
+PSQL="psql postgres://lethereal:E7GPui3DBngk@ep-lively-meadow-217791-pooler.us-west-2.aws.neon.tech/filateste -t --no-align -c"
 
 CLIP1() {
   VIDEO_ID=$($PSQL "SELECT video_id FROM videos WHERE video_id = '$ID_PASTA'")
   if [[ -z $VIDEO_ID ]]
     #Se o vídeo não existe
     then
-      INSERT_RESULT=$($PSQL "INSERT INTO videos(fonte, video_id, codigo, tipo_audio, imagem, audio, ultimate_teste, op_vt, op_audio) VALUES('$FONTE', '$ID_PASTA', '$CODIGO_NOME', '$TIPO_AUDIO', '$IMAGEM', '$AUDIO', to_date('$ULTIMO_TESTE', 'dd/mm/yyyy'), OP_VT, OP_AUDIO)")
+      echo "$($PSQL "INSERT INTO videos(fonte, video_id, codigo, tipo_audio, imagem, audio, ultimo_teste, op_vt, op_audio) VALUES('$1', '$2', '$3', '$4', '$5', '$6', to_date('$7', 'dd/mm/yyyy'), '$8', '$9')")"
     #Video existe
   fi
 }
