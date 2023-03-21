@@ -24,8 +24,8 @@ CLIP2;VTs e Vídeos\VTs de Produtos;Aspirador de Pó Ciclone Force 1000W Philco;
 CLIP1;42013;VH-ABVR_CP01;00:00:15.00;BGM;OK;OK;30/12/2021;Jesus;Gabriel;Mídia alterada, copiado para o ETX12 novamente
 CLIP1;46499;VT | CAPRIJOGUNIVERSO_CP01;00:03:43.21;Voz e BGM;Reprovado;OK;03/01/2022;Jesus;André;"Asset ""pisca"" entre cortes de câmera com 48s rodados. Mariana notificada."
 CLIP2;VTs e Vídeos\VTs de Produtos;Robô Aspirador de Pó Mondial RB04;00:02:03.00;Voz e BGM;OK;OK;03/01/2022;Jesus;André;
-CLIP1;46613;VT | CAPRIJOGUNIVERSO_CP02;00:03:43.21;Voz e BGM;Reprovado;OK;04/01/2022;Jesus;André;"Asset ""pisca"" entre cortes de câmera com 48s rodados. Mariana notificada."
-CLIP2;46826;VTSUGESSTRESTSARAVA;00:01:16:00;Voz e BGM;Reprovado;OK;17/01/2022;Bárbara;Gabriel;Diretora achou a vinheta grande demais, texto da vinheta pisca. Patrícia notificada.
+CLIP1;VTs e Vídeos\VTs de Produtos;VT | CAPRIJOGUNIVERSO_CP02;00:03:43.21;Voz e BGM;Reprovado;OK;04/01/2022;Jesus;André;"Asset ""pisca"" entre cortes de câmera com 48s rodados. Mariana notificada."
+CLIP1;46826;VTSUGESSTRESTSARAVA;00:01:16.00;Voz e BGM;Reprovado;OK;17/01/2022;Bárbara;Gabriel;Diretora achou a vinheta grande demais, texto da vinheta pisca. Patrícia notificada.
 CLIP1;46973;VT | MERCUJOGUNIVERSO_CP01;00:05:24.18;Voz e BGM;OK;OK;19/01/2022;Jesus;Marcelinho;
 CLIP1;47163;VT-SUGESTRESTSARAVA_CP02;00:01:16.01;Voz e BGM;Reprovado;Reprovado;21/01/2022;Jesus;André;Artefados na logo da vinheta, áudio de baixa qualidade. Márcia/Patrícia notificada, decidiram rodar mesmo assim
 CLIP2;Material Programas\Vida Revista\2022\24.01.2022;After Life _ Season 3 Official Trailer _ Netflix;00:02:11.00;Voz e BGM;OK;OK;24/01/2022;Jesus;Gabriel;
@@ -118,7 +118,7 @@ CLIP2;VTs e Vídeos\VTs de Produtos;Conheça a linha Solar Tramontina - Panelas 
 CLIP2;VTs e Vídeos\VTs de Produtos;Sicília _ Tramontina (1);00:00:48.00;BGM;OK;OK;18/03/2022;Jesus;Cleyton;
 CLIP1;48844;EV-PRECISOUFOCOFK_CP01;00:00:10.00;Sem áudio;OK;N/A;21/03/2022;Jesus;Cleyton;
 CLIP1;48845;EV-PRECISOUFOCOFK-01A;00:00:10.00;BGM;OK;OK;21/03/2022;Jesus;Cleyton;
-CLIP2;Vídeos de Programas\Casa & Conforto I 21.03.2022;ALEXANDRA MELO;00:01:56:00;Voz;OK;OK;21/03/2022;Jesus;André;
+CLIP2;Vídeos de Programas\Casa & Conforto I 21.03.2022;ALEXANDRA MELO;00:01:56.00;Voz;OK;OK;21/03/2022;Jesus;André;
 INFOWS;https://www.instagram.com/p/CaA1lYdpJMR/;Djavan Oficial - Chamada Show 26/03/2022;N/A;Voz e BGM;OK;OK;25/03/2022;Jesus;André;
 CLIP2;Vídeos de Programas\Papo a Gosto\Papo a Gosto 25.03.2022;Clara Nunes - Peixe Com Coco (Show 1º de Maio no Riocentro);00:02:18.00;Música;OK;OK;25/03/2022;Jesus;André;
 CLIP2;Vídeos de Programas\Papo a Gosto\Papo a Gosto 25.03.2022;OFF - CLARA NUNES_mpeg4;00:01:43.00;Voz e BGM;OK;OK;25/03/2022;Jesus;André;
@@ -182,7 +182,7 @@ INFOWS;https://open.spotify.com/episode/515BZHO4VUBAbL2FNYRdOc?si=vKPGh4p0R_WU4C
 CLIP1;50313;VT-COLECAOAMOR-CP01;00:01:40.01;BGM;OK;OK;02/05/2022;Jesus;Gabriel;
 CLIP1;50423;EV-DIADASMAES2022-CP02;00:00:10.00;Sem áudio;OK;N/A;02/05/2022;Jesus;Gabriel;
 CLIP1;49925;EV-DIADASMAES2022-01A;00:00:30.00;Voz e BGM;OK;OK;02/05/2022;Jesus;André;Asset entregue durante o vivo por Marcelo Rezende. Notificado à Marco Aurélio e testado durante o break de 15:52.
-CLIP2;Vídeos de Programas\Família Shoptime\03.05.2022 Família Shoptime;DIA DAS MAES.VALENDO.FINAL_mpeg4;00:14.26.00;Voz e BGM;OK;Reprovado;02/05/2022;Jesus;Gabriel;Áudio fora de sync em alguns momentos, comunicado para Tininha Araújo
+CLIP2;Vídeos de Programas\Família Shoptime\03.05.2022 Família Shoptime;DIA DAS MAES.VALENDO.FINAL_mpeg4;"00:14:26;00";Voz e BGM;OK;Reprovado;02/05/2022;Jesus;Gabriel;Áudio fora de sync em alguns momentos, comunicado para Tininha Araújo
 CLIP2;Vídeos de Programas\Família Shoptime\03.05.2022 Família Shoptime;ESQUETE ESTUDIO.FINAL;00:04:22.00;Voz e BGM;OK;OK;02/05/2022;Jesus;Gabriel;
 CLIP2;Vídeos de Programas\Casa & Conforto\04.05.2022 Casa & Conforto I;0405 - perfil aberto- DAVI LOPES;00:00:34.00;Voz;OK;OK;02/05/2022;Jesus;Gabriel;
 CLIP2;Vídeos de Programas\Casa & Conforto\04.05.2022 Casa & Conforto I;0405 - perfil aberto- ANDREA BUENO;00:00:26.00;Voz;OK;OK;02/05/2022;Jesus;Gabriel;
@@ -194,7 +194,7 @@ CLIP2;Vídeos de Programas\Casa & Conforto\05.05.2022 Casa & Conforto I;Filme-Co
 CLIP2;VTs e Vídeos\VTs de Produtos;Cafeteira Expresso PrimaLatte Oster - Conheça;00:00:58.00;BGM;OK;OK;02/05/2022;Jesus;André;
 CLIP1;50592;EV-REALITYDIADASMAES-CP01;00:05:32.03;Voz e BGM;OK;OK;06/05/2022;Jesus;Gabriel;Imagem lavada, constatada pro Josuel
 CLIP1;50571;EV-REALITYDIADASMAES-CP02;00:01:36.02;Voz e BGM;OK;OK;06/02/2022;Jesus;Gabriel;
-CLIP2;Vídeos de Programas\Casa & Conforto\10.05.2022 Casa & Conforto I;Renata Responde;00:07:30:00;Voz e BGM;Reprovado;OK;10/05/2022;Bárbara;Gabriel;
+CLIP2;Vídeos de Programas\Casa & Conforto\10.05.2022 Casa & Conforto I;Renata Responde;00:07:30.00;Voz e BGM;Reprovado;OK;10/05/2022;Bárbara;Gabriel;
 CLIP2;Vídeos de Programas\Vida Revista\12.05.2022 Vida Revista;RENATA CANSADA - OK;00:04:38.00;Voz e BGM;OK;OK;12/05/2022;Jesus;André;
 CLIP1;50565;VH-CASALEVAFAMADEITA-CP01;00:00:08.01;BGM;OK;OK;12/05/2022;Jesus;André;
 CLIP1;50566;VH-CASABARBARIDADES-CP01;00:00:08.01;BGM;OK;OK;12/05/2022;Jesus;André;
@@ -361,13 +361,13 @@ CLIP2;Vídeos de Programas\Casa & Conforto\30.08.2022 Gravação Ghost;MOEDA;00:
 CLIP2;Vídeos de Programas\Casa & Conforto\30.08.2022 Gravação Ghost;ODA;00:01:15.00;Voz e BGM;OK;OK;30/08/2022;Jesus;André;
 CLIP2;Vídeos de Programas\Casa & Conforto\30.08.2022 Gravação Ghost;Trailer - Ghost - Do Outro Lado da Vida (1990);00:03:45.00;Voz e BGM;OK;OK;30/08/2022;Jesus;André;
 CLIP2;Vídeos de Programas\Casa & Conforto\30.08.2022 Gravação Ghost;Unchained Melody;00:03:05.00;BGM;OK;OK;30/08/2022;Jesus;André;
-CLIP2;Vídeos de Programas\Família Shoptime\29.07.2022 Família Shoptime;Cozinhando com Andrea Bueno;00:08:08.00;Voz e BGM;OK;OK;31/09/22;Jesus;André;
-CLIP2;Vídeos de Programas\Família Shoptime\19.08.2022 Família Shoptime;Esquete Oster;00:05:48.00;Voz e BGM;OK;OK;31/09/22;Jesus;André;
-CLIP2;Vídeos de Programas\Família Shoptime\09.06.2022 Família Shoptime;Esquete Tec Toy;00:03:41.00;Voz e BGM;OK;OK;31/09/22;Jesus;André;
-CLIP2;Vídeos de Programas\Família Shoptime\08.08.2022 Família Shoptime;Na duvida do que comprar no dia dos Pais;00:06:59.00;Voz e BGM;OK;OK;31/09/22;Jesus;André;
-CLIP2;Vídeos de Programas\Família Shoptime\25.08.2022 Família Shoptime;Viagem da família Shoptime;00:03:56.00;Voz e BGM;OK;OK;31/09/22;Jesus;André;
-CLIP2;Vídeos de Programas\Família Shoptime\02.08.2022 Família Shoptime;Escorredor de prato_Familia Shoptime;00:02:18.00;Voz e BGM;OK;OK;31/09/22;Jesus;André;
-CLIP2;Vídeos de Programas\Família Shoptime\02.08.2022 Família Shoptime;its man_Familia Shoptime;00:02:39.00;Voz e BGM;OK;OK;31/09/22;Jesus;André;
+CLIP2;Vídeos de Programas\Família Shoptime\29.07.2022 Família Shoptime;Cozinhando com Andrea Bueno;00:08:08.00;Voz e BGM;OK;OK;31/09/2022;Jesus;André;
+CLIP2;Vídeos de Programas\Família Shoptime\19.08.2022 Família Shoptime;Esquete Oster;00:05:48.00;Voz e BGM;OK;OK;31/09/2022;Jesus;André;
+CLIP2;Vídeos de Programas\Família Shoptime\09.06.2022 Família Shoptime;Esquete Tec Toy;00:03:41.00;Voz e BGM;OK;OK;31/09/2022;Jesus;André;
+CLIP2;Vídeos de Programas\Família Shoptime\08.08.2022 Família Shoptime;Na duvida do que comprar no dia dos Pais;00:06:59.00;Voz e BGM;OK;OK;31/09/2022;Jesus;André;
+CLIP2;Vídeos de Programas\Família Shoptime\25.08.2022 Família Shoptime;Viagem da família Shoptime;00:03:56.00;Voz e BGM;OK;OK;31/09/2022;Jesus;André;
+CLIP2;Vídeos de Programas\Família Shoptime\02.08.2022 Família Shoptime;Escorredor de prato_Familia Shoptime;00:02:18.00;Voz e BGM;OK;OK;31/09/2022;Jesus;André;
+CLIP2;Vídeos de Programas\Família Shoptime\02.08.2022 Família Shoptime;its man_Familia Shoptime;00:02:39.00;Voz e BGM;OK;OK;31/09/2022;Jesus;André;
 CLIP1;54699;EV-TUDOPSCASAFPUD_CP01;00:00:10.00;Sem aúdio;OK;N/A;02/09/2022;Jesus;Gabriel;
 CLIP1;54714;EV-TUDOPSCASAFCE_CP01;00:00:10.00;Sem áudio;OK;N/A;02/09/2022;Jesus;André;
 CLIP2;Vídeos de Programas\Chef em Casa\05.09.2022 Chef em Casa;FEIRA MISTURA;00:00:14.00;Sem áudio;OK;N/A;05/09/2022;Jesus;André;Vídeo possui áudio de fundo sem utilidade, orientações foram de rodar sem áudio.
@@ -655,3 +655,4 @@ CLIP2;VTs e Vídeos\VTs de Produtos;pra descobrir_ desobediente;00:01:10.00;Voz 
 CLIP1;57016;EV-TUDOPRASUAKSAGER_CP04;00:00:10.00;Sem áudio;OK;OK;20/03/2023;Jesus;André;
 CLIP1;57058;TD-MOEDORDEGRAOS_CP01;00:01:53.00;BGM;OK;OK;20/03/2023;Jesus;André;
 CLIP1;57061;EV-PASCOA2023_CP01;00:00:10.00;Sem áudio;OK;N/A;20/03/2023;Jesus;André;
+CLIP2;VTs e Vídeos\VTs de Produtos;Apresentação do Toalheiro térmico da marca Term;"00:02:51;00";BGM;OK;OK;21/03/2023;Jesus;Marcelo;
