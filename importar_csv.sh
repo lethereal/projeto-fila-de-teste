@@ -11,21 +11,21 @@ CLIP1() {
         then
           echo "$($PSQL "INSERT INTO videos(fonte, video_id, codigo, duracao) VALUES('$1', '$2', '$3', '$4')")"
         else
-          echo "$($PSQL "INSERT INTO videos(fonte, video_id, codigo, duracao, tipo_audio, imagem, audio, ultimo_teste, op_vt, op_audio) VALUES('$1', '$2', '$3', '$4', '$5', '$6', '$7', to_date('$ULTIMO_TESTE', 'dd/mm/yyyy'), '$9', '${10}')")"
+          echo "$($PSQL "INSERT INTO videos(fonte, video_id, codigo, duracao, tipo_audio, imagem, audio, ultimo_teste, op_vt, op_audio, observacoes) VALUES('$1', '$2', '$3', '$4', '$5', '$6', '$7', to_date('$ULTIMO_TESTE', 'dd/mm/yyyy'), '$9', '${10}', '${11}')")"
       fi
-      echo "$1 $2 $3 $4 $5 $6 $7 $8 $9 ${10}"
+      echo "$1 | $2 | $3 | $4 | $5 | $6 | $7 | $8 | $9 | ${10} | ${11}"
     #Video existe
   fi
 }
 
-cat Fila-de-Teste.csv | while IFS=";" read FONTE ID_PASTA CODIGO_NOME DURACAO TIPO_AUDIO IMAGEM AUDIO ULTIMO_TESTE OP_VT OP_AUDIO
+cat Fila-de-Teste.csv | while IFS=";" read FONTE ID_PASTA CODIGO_NOME DURACAO TIPO_AUDIO IMAGEM AUDIO ULTIMO_TESTE OP_VT OP_AUDIO OBSERVACOES
 do
   if [[ "$FONTE" != 'Fonte' ]]
     then
       DURACAO_CORRIGIDA=$(echo $DURACAO | sed 's/^"* *"$//')
       if [[ "$FONTE" == "CLIP1" ]]
         then
-          CLIP1 "$FONTE" "$ID_PASTA" "$CODIGO_NOME" "$DURACAO_CORRIGIDA" "$TIPO_AUDIO" "$IMAGEM" "$AUDIO" "$ULTIMO_TESTE" "$OP_VT" "$OP_AUDIO"
+          CLIP1 "$FONTE" "$ID_PASTA" "$CODIGO_NOME" "$DURACAO_CORRIGIDA" "$TIPO_AUDIO" "$IMAGEM" "$AUDIO" "$ULTIMO_TESTE" "$OP_VT" "$OP_AUDIO" "$OBSERVACOES"
       #elif
         #then
         #Tratamento CLIP2
