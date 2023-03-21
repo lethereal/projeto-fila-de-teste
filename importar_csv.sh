@@ -22,13 +22,14 @@ cat Fila-de-Teste.csv | while IFS=";" read FONTE ID_PASTA CODIGO_NOME DURACAO TI
 do
   if [[ "$FONTE" != 'Fonte' ]]
     then
-      DURACAO_CORRIGIDA=$(echo $DURACAO | sed 's/^"* *"$//')
       if [[ "$FONTE" == "CLIP1" ]]
         then
-          CLIP1 "$FONTE" "$ID_PASTA" "$CODIGO_NOME" "$DURACAO_CORRIGIDA" "$TIPO_AUDIO" "$IMAGEM" "$AUDIO" "$ULTIMO_TESTE" "$OP_VT" "$OP_AUDIO" "$OBSERVACOES"
-      #elif
+          CLIP1 "$FONTE" "$ID_PASTA" "$CODIGO_NOME" "$DURACAO" "$TIPO_AUDIO" "$IMAGEM" "$AUDIO" "$ULTIMO_TESTE" "$OP_VT" "$OP_AUDIO" "$OBSERVACOES"
+      
+      #elif [[ "$FONTE" == "CLIP2" ]]
         #then
         #Tratamento CLIP2
+          CLIP2 "$FONTE" "$ID_PASTA" "$CODIGO_NOME" "$DURACAO" "$TIPO_AUDIO" "$IMAGEM" "$AUDIO" "$ULTIMO_TESTE" "$OP_VT" "$OP_AUDIO" "$OBSERVACOES"
       #else
         #Tratamento INFOWS
       fi
