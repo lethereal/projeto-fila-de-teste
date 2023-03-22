@@ -52,12 +52,12 @@ do
         then
           CLIP1 "$FONTE" "$ID_PASTA" "$CODIGO_NOME" "$DURACAO" "$TIPO_AUDIO" "$IMAGEM" "$AUDIO" "$ULTIMO_TESTE" "$OP_VT" "$OP_AUDIO" "$OBSERVACOES"
       
-      elif [[ "$FONTE" == "CLIP2" ]]
+      elif [[ "$FONTE" == "CLIP2" || "$FONTE" == INFOWS ]]
         then
         #Tratamento CLIP2
           CLIP2 "$FONTE" "$ID_PASTA" "$CODIGO_NOME" "$DURACAO" "$TIPO_AUDIO" "$IMAGEM" "$AUDIO" "$ULTIMO_TESTE" "$OP_VT" "$OP_AUDIO" "$OBSERVACOES"
-      #else
-        #Tratamento INFOWS
+      else
+          echo "Fonte inválida $1 | $2 | $3 | $4"
       fi
 
   fi

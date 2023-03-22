@@ -1,0 +1,32 @@
+Excel
+Fonte | ID/Pasta | Código/Nome | Duração | Tipo de áudio | Imagem | Áudio | Data | Op. VT | Op. Áudio
+
+PostgreSQL
+videos
+fonte VARCHAR(10) NOT NULL
+video_id SERIAL UNIQUE NOT NULL PRIMARY KEY
+codigo VARCHAR(30)
+pasta VARCHAR(240)
+nome VARCHAR(240)
+tipo_audio VARCHAR(10) DEFAULT 'Pendente'
+imagem VARCHAR(10) DEFAULT 'Pendente'
+audio VARCHAR(10) DEFAULT 'Pendente'
+ultimo_teste DATE DEFAULT
+op_vt VARCHAR(120) NOT NULL DEFAULT 'Pendente'
+op_audio VARCHAR(120) NOT NULL DEFAULT 'Pendente'
+constraint either_codename check (codigo is 
+
+not null or nome is not null)
+to_date('$ULTIMO_TESTE', 'dd/mm/yyyy')
+
+Bash variables
+FONTE
+ID_PASTA
+CODIGO_NOME
+DURACAO
+TIPO_AUDIO
+IMAGEM
+AUDIO
+ULTIMO_TESTE
+OP_VT
+OP_AUDIO
