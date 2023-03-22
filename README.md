@@ -1,5 +1,5 @@
 # projeto-fila-de-teste
-Projeto Fila de Teste
+Video Testing Queue Project
 
 Milestones:
 
