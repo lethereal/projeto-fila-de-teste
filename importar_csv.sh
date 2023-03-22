@@ -1,7 +1,7 @@
 #!/bin/bash
 PSQL="psql postgres://lethereal:HFP4Qc5zSvij@ep-rough-mode-134797-pooler.us-west-2.aws.neon.tech/filateste -t --no-align -c"
 
-CLIP1() {
+newCLIP1() {
   VIDEO_ID=$($PSQL "SELECT video_id FROM videos WHERE video_id = '$2'")
   if [[ -z "$VIDEO_ID" ]]
     #Se o vídeo não existe
@@ -22,7 +22,7 @@ CLIP1() {
   fi
 }
 
-CLIP2() {
+newCLIP2-INFOWS() {
   VIDEO_ID=$($PSQL "SELECT video_id FROM videos WHERE pasta = '$2'")
   if [[ -z "$VIDEO_ID" ]]
     #Se o vídeo não existe
@@ -48,17 +48,19 @@ cat Fila-de-Teste.csv | while IFS=";" read -r FONTE ID_PASTA CODIGO_NOME DURACAO
 do
   if [[ "$FONTE" != 'Fonte' ]]
     then
-      if [[ "$FONTE" == "CLIP1" ]]
-        then
-          CLIP1 "$FONTE" "$ID_PASTA" "$CODIGO_NOME" "$DURACAO" "$TIPO_AUDIO" "$IMAGEM" "$AUDIO" "$ULTIMO_TESTE" "$OP_VT" "$OP_AUDIO" "$OBSERVACOES"
-      
-      elif [[ "$FONTE" == "CLIP2" || "$FONTE" == INFOWS ]]
-        then
+      case "$FONTE" in
+        CLIP1)
+          newCLIP1 "$FONTE" "$ID_PASTA" "$CODIGO_NOME" "$DURACAO" "$TIPO_AUDIO" "$IMAGEM" "$AUDIO" "$ULTIMO_TESTE" "$OP_VT" "$OP_AUDIO" "$OBSERVACOES"
+          ;;
+        
+        CLIP2 | INFOWS)
         #Tratamento CLIP2
-          CLIP2 "$FONTE" "$ID_PASTA" "$CODIGO_NOME" "$DURACAO" "$TIPO_AUDIO" "$IMAGEM" "$AUDIO" "$ULTIMO_TESTE" "$OP_VT" "$OP_AUDIO" "$OBSERVACOES"
-      else
+          newCLIP2-INFOWS "$FONTE" "$ID_PASTA" "$CODIGO_NOME" "$DURACAO" "$TIPO_AUDIO" "$IMAGEM" "$AUDIO" "$ULTIMO_TESTE" "$OP_VT" "$OP_AUDIO" "$OBSERVACOES"
+          ;;
+        
+        *)
           echo "Fonte inválida $1 | $2 | $3"
-      fi
-
+          ;;
+      esac
   fi
 done
