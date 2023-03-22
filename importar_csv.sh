@@ -1,6 +1,15 @@
 #!/bin/bash
 PSQL="psql postgres://lethereal:HFP4Qc5zSvij@ep-rough-mode-134797-pooler.us-west-2.aws.neon.tech/filateste -t --no-align -c"
 
+resultEcho() {
+  if [[ "$4" == "INSERT 0 1" ]]
+    then
+      echo "$1 | $3 ($2) inserido com sucesso"
+    else
+      echo "Falha na inserção do vídeo $1 | $2 | $3"
+  fi
+}
+
 newCLIP1() {
   VIDEO_ID=$($PSQL "SELECT video_id FROM videos WHERE video_id = '$2'")
   if [[ -z "$VIDEO_ID" ]]
@@ -12,12 +21,7 @@ newCLIP1() {
         else
           RESULT="$($PSQL "INSERT INTO videos(fonte, video_id, codigo, duracao, tipo_audio, imagem, audio, ultimo_teste, op_vt, op_audio, observacoes) VALUES('$1', '$2', '$3', '$4', '$5', '$6', '$7', to_date('$ULTIMO_TESTE', 'dd/mm/yyyy'), '$9', '${10}', '${11}')")"
       fi
-      if [[ "$RESULT" == "INSERT 0 1" ]]
-        then
-          echo "$1 | $2 | $3 inserido com sucesso"
-        else
-          echo "Falha na inserção do vídeo $1 | $2 | $3 | $4"
-      fi
+      resultEcho "$1" "$2" "$3" "$RESULT"
     #Video existe
   fi
 }
@@ -33,13 +37,7 @@ newCLIP2-INFOWS() {
         else
           RESULT="$($PSQL "INSERT INTO videos(fonte, pasta, nome, duracao, tipo_audio, imagem, audio, ultimo_teste, op_vt, op_audio, observacoes) VALUES('$1', '$2', '$3', '$4', '$5', '$6', '$7', to_date('$ULTIMO_TESTE', 'dd/mm/yyyy'), '$9', '${10}', '${11}')")"
       fi
-
-      if [[ "$RESULT" == "INSERT 0 1" ]]
-        then
-          echo "$1 | $2 | $3 inserido com sucesso"
-        else
-          echo "Falha na inserção do vídeo $1 | $2 | $3"
-      fi
+      resultEcho "$1" "$2" "$3" "$RESULT"
     #Video existe
   fi
 }
