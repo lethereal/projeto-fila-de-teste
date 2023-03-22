@@ -1,5 +1,5 @@
 #!/bin/bash
-PSQL="psql postgres://lethereal:HFP4Qc5zSvij@ep-rough-mode-134797-pooler.us-west-2.aws.neon.tech/filateste -t --no-align -c"
+source database-auth.sh
 
 resultEcho() {
   if [[ "$4" == "INSERT 0 1" ]]
