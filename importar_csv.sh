@@ -14,7 +14,7 @@ CLIP1() {
       fi
       if [[ "$RESULT" == "INSERT 0 1" ]]
         then
-          echo "$1 | $2 | $3 | $4 inserido com sucesso"
+          echo "$1 | $2 | $3 inserido com sucesso"
         else
           echo "Falha na inserção do vídeo $1 | $2 | $3 | $4"
       fi
@@ -36,9 +36,9 @@ CLIP2() {
 
       if [[ "$RESULT" == "INSERT 0 1" ]]
         then
-          echo "$1 | $2 | $3 | $4 inserido com sucesso"
+          echo "$1 | $2 | $3 inserido com sucesso"
         else
-          echo "Falha na inserção do vídeo $1 | $2 | $3 | $4"
+          echo "Falha na inserção do vídeo $1 | $2 | $3"
       fi
     #Video existe
   fi
@@ -57,7 +57,7 @@ do
         #Tratamento CLIP2
           CLIP2 "$FONTE" "$ID_PASTA" "$CODIGO_NOME" "$DURACAO" "$TIPO_AUDIO" "$IMAGEM" "$AUDIO" "$ULTIMO_TESTE" "$OP_VT" "$OP_AUDIO" "$OBSERVACOES"
       else
-          echo "Fonte inválida $1 | $2 | $3 | $4"
+          echo "Fonte inválida $1 | $2 | $3"
       fi
 
   fi
