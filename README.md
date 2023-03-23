@@ -12,6 +12,7 @@ Milestones:
 - INFOWS import complete, bugs fixed.
 
 STEP 1 COMPLETE
+
 Technology used in this step:
 - Shell
 - Bash
